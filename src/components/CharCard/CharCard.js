@@ -4,6 +4,7 @@ import React from 'react';
 import './CharCard.css'
 const CharCard = (props) => {
     const {name,image,wand,house,patronus} = props.chars
+    const handleFollow = props.handleFollow
     return (
 
             <div className="single-character-card">
@@ -14,7 +15,7 @@ const CharCard = (props) => {
                         <h5>Wand core : {wand.core} </h5>
                         <h5>House Name: {house}</h5>
                         <h5>Petronus : {patronus ? patronus:"Not found"}</h5>
-                        <button className="follow-button"><FontAwesomeIcon icon={faPlus}></FontAwesomeIcon> Follow</button>
+                        <button onClick={()=>handleFollow(props.chars)} className="follow-button"><FontAwesomeIcon icon={faPlus}></FontAwesomeIcon> Follow</button>
                     </div>
                 </div>    
             </div>
