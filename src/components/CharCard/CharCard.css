@@ -1,0 +1,43 @@
+.single-character-card{
+    border: 1px solid green;
+    border-radius: 10px;
+ 
+}
+
+.single-character-card  h5 {
+    text-align: center;
+}
+
+.char-image{
+    height: 170px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+}
+.card{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.info{
+    margin-left: 20px;
+    color: honeydew;
+}
+.info h5{
+    text-align: left;
+    font-weight: 300;
+}
+.follow-button{
+    color:white;
+    background-color: indigo;
+    width: 150px;
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
