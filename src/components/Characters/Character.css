@@ -5,3 +5,14 @@
     margin: 40px;
     padding-right: 100px;
 }
+
+.follower-cart{
+    border: 2px solid seagreen;
+    color:white;
+    margin: 20px;
+  
+}
+.follower-cart h1{
+    text-align: center;
+    font-weight: 400;
+}
